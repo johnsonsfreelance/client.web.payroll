@@ -1,0 +1,140 @@
+/*
+* ============
+* Global Rule
+* ============
+*/
+*{
+    box-sizing: border-box;
+}
+.ci_container{
+    max-width: 1280px;
+}
+h1{
+    font-size: 42px;
+}
+h2{
+    font-size: 42px;
+}
+h3{
+    font-size: 42px;
+}
+h4{
+    font-size: 42px;
+}
+h5{
+    font-size: 42px;
+}
+h6{
+    font-size: 42px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+    font-weight: 300;
+}
+a{
+    color: #e20919;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    color: #008bcf;
+}
+body{
+    margin: 0;
+}
+#ci-full-width-container{
+    width: 1366px;
+}
+.ci_primary_theme{
+    background-color: #008bcf;
+}
+.ci_secondary_theme{
+    background-color: #f4f4f4;
+}
+/* End Global Rule*/
+
+/*
+* ============
+* Main Style
+* ============
+*/
+a.ci_btn{
+    color: #ffffff;
+}
+a.ci_btn:hover{
+    color: #ffffff;
+}
+.ci_btn_wrapper{
+    width:100%;
+    min-width: 250px;
+    background-color: #e20919;
+    cursor: pointer;
+}
+.ci_btn_wrapper:hover{
+    background-color: #e20919;
+}
+.ci_mega_nav{
+    display: none;
+}
+.ci_nav_bar_wrapper li a {
+    text-transform: capitalize;
+}
+.ci_nav_bar_wrapper li {
+    display: inline-block;
+    padding-left: 30px;
+}
+.ci_top_header_wrapper {
+    width: 100%;
+    min-height: 25px;
+}
+
+/* End Main Style*/
+
+/*
+* ============
+* Custom Style
+* ============
+*/
+
+/* 
+ * add Global custom style below
+*/
+
+
+
+/* 
+ * add @Media custom style below
+*/
+/*desktop view*/
+@media (min-width: 981px){
+
+}
+/*tablet view*/
+@media (max-width: 980px) and (min-width: 479px){
+
+}
+/*smart phone view*/
+@media (max-width: 480px){
+
+}
+
+/* 
+ * add Header custom style below
+*/
+
+
+
+/* 
+ * add Main Content custom style below
+*/
+
+
+
+/* 
+ * add Footer custom style below
+*/
+
+/* End Custom Style*/
